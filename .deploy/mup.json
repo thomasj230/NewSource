@@ -1,0 +1,48 @@
+{
+  // Server authentication info
+  "servers": [
+    {
+      "host": "46.101.24.41",
+      "username": "root",
+      "password": "newsource13092015"
+      // or pem file (ssh based authentication)
+      //"pem": "~/.ssh/id_rsa"
+    }
+  ],
+
+  "ssl": {
+    "pem": "./ssl.pem"
+    //"backendPort": 80
+  },
+
+  // Install MongoDB in the server, does not destroy local MongoDB on future setup
+  "setupMongo": false,
+
+  // WARNING: Node.js is required! Only skip if you already have Node.js installed on server.
+  "setupNode": true,
+
+  // WARNING: If nodeVersion omitted will setup 0.10.36 by default. Do not use v, only version number.
+  "nodeVersion": "0.10.40",
+
+  // Install PhantomJS in the server
+  "setupPhantom": true,
+
+  // Application name (No spaces)
+  "appName": "newsource",
+
+  // Location of layout (local directory)
+  "app": "../",
+
+  // Configure environment
+  "env": {
+    "ROOT_URL": "http://newsource.fr",
+    "PORT": 8080,
+    "UPSTART_UID" : "meteoruser",
+    "METEOR_ENV": "production",
+    "MONGO_URL": "mongodb://newsource-telescope-admin:newsource13032016@cockney.2.mongolayer.com:10259,cockney.3.mongolayer.com:10259/newsource-telescope?replicaSet=set-55ff36a55b35c83404001451"
+  },
+
+  // Meteor Up checks if the layout comes online just after the deployment
+  // before mup checks that, it will wait for no. of seconds configured below
+  "deployCheckWaitTime": 15
+}

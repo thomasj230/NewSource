@@ -1,0 +1,49 @@
+{
+  "public": {
+    "navLayout": "side-nav",
+    "requirePostsApproval": true,
+    "enableDownvotes": false,
+    "scoreUpdateInterval": 30,
+    "language": "fr",
+    "showTaglineBanner": false,
+    "defaultView": "top",
+    "postsLayout": "posts-grid",
+    "postViews": [
+      "top",
+      "new",
+      "best",
+      "pending"
+    ],
+    "postInterval": 30,
+    "loadMoreBehavior": "scroll",
+    "maxPostsPerDay": 30,
+    "postsPerPage": 15,
+    "commentInterval": 15,
+    "logoUrl": "https://newsource.fr/images/logo_sans.png",
+    "faviconUrl": "https://newsource.fr/images/favicons/logo.ico",
+    "authMethods": [
+      "email",
+      "twitter",
+      "facebook"
+    ],
+    "categoriesBehavior": "multiple",
+    "hideEmptyCategories": false,
+    "debug": false,
+    "requireViewInvite": false,
+    "requirePostInvite": false,
+    "startInvitesCount": 3,
+    "enableNewsletter": false,
+    "showBanner": false,
+    "newsletterTime": "00:00",
+    "autoSubscribe": false,
+    "emailNotifications": true,
+    "title": "NewSource",
+    "siteUrl": "https://newsource.fr/",
+    "tagline": "Devenir un meilleur entrepreneur !",
+    "siteImage": "https://newsource.fr/images/favicons/logo_96x96.png",
+    "accentColor": "#303f9f",
+    "accentContrastColor": "#fafafa",
+    "secondaryColor": "#fafafa",
+    "secondaryContrastColor": "#303f9f"
+  }
+}
