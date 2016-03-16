@@ -1,4 +1,4 @@
-Template.newsletter_banner.helpers({
+Template.ns_newsletter_banner.helpers({
   showBanner2: function () {
     // note: should not be reactive
     if(

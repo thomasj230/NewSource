@@ -35,7 +35,7 @@ Package.onUse(function (api) {
   api.addFiles([
 
     'lib/client/templates/common/layout.html',
-    // 'lib/client/templates/common/logo.html',
+    'lib/client/templates/common/logo.html',
     'lib/client/templates/common/newsletter_banner.html',
     'lib/client/templates/common/newsletter_banner.js',
     'lib/client/templates/common/page.html',
@@ -57,6 +57,10 @@ Package.onUse(function (api) {
 
     'lib/client/templates/nav/views_menu.html',
     'lib/client/templates/nav/views_menu.js',
+    'lib/client/templates/nav/categories_menu.html',
+    'lib/client/templates/nav/categories_menu.js',
+    'lib/client/templates/nav/header.html',
+    'lib/client/templates/nav/header.js',
     'lib/client/templates/nav/submit_button.html',
 
     'lib/client/stylesheets/_comments.scss',

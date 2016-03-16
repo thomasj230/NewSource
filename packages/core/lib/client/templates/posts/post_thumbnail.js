@@ -1,4 +1,4 @@
-Template.post_thumbnail.helpers({
+Template.ns_post_thumbnail.helpers({
   getDuration: function () {
     if (this.media && this.media.duration) {
       var duration = moment.duration(this.media.duration, 'seconds');
