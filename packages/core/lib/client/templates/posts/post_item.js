@@ -1,4 +1,4 @@
-Template.post_item.helpers({
+Template.ns_post_item.helpers({
   summary: function () {
     return Telescope.utils.trimWords(this.htmlBody, 20);
   },

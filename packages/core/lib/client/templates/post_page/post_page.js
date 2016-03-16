@@ -1,4 +1,4 @@
-Template.post_page.helpers({
+Template.ns_post_page.helpers({
   video: function () {
     return this.media && this.media.type === "video" && this.media;
   },

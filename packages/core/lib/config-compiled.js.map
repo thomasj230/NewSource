@@ -1,1 +1,0 @@
-{"version":3,"sources":["config.js"],"names":[],"mappings":";;AAAA,SAAS,CAAC,MAAM,CAAC,eAAe,CAAC,KAAK,CAAC,CAAC","file":"config-compiled.js","sourcesContent":["Telescope.config.addCustomPrefix(\"ns_\");\n"]}

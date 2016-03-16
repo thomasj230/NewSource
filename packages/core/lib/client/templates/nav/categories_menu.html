@@ -1,0 +1,8 @@
+<template name="ns_categories_menu">
+    <div class="categories-menu-wrapper {{moduleClass}}">
+        Yolo !
+        {{#if hasCategories}}
+            {{> menuComponent menuName="categories" menuLabel=menuLabel itemTemplate="categories_menu_item" menuItems=menuItems menuType=menuType expandLevel=expandLevel}}
+        {{/if}}
+    </div>
+</template>

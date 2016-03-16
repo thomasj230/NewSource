@@ -19,7 +19,7 @@
     "maxPostsPerDay": 30,
     "postsPerPage": 15,
     "commentInterval": 15,
-    "logoUrl": "https://newsource.fr/images/logo_sans.png",
+    "logoUrl": "",
     "faviconUrl": "https://newsource.fr/images/favicons/logo.ico",
     "authMethods": [
       "email",

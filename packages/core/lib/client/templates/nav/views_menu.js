@@ -1,4 +1,4 @@
-Template.views_menu.helpers({
+Template.ns_views_menu.helpers({
   expandLevel: function () {
     if (this.zone === "mobileNav") {
       return 0;
