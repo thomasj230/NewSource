@@ -1,0 +1,55 @@
+$nav-width: 250px;
+
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+body, input, button, textarea{
+  font-weight: $regular;
+  color: #444;
+}
+
+.content-wrapper{
+  max-width: none;
+  @include medium-large{
+    padding: 0 $grid-padding;
+  }
+}
+
+.inner-wrapper{
+
+}
+
+.body-overlay{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.1;
+  filter: grayscale(100%);
+}
+
+.markdown{
+  h3{
+    font-size: 24px;
+  }
+}
+
+.background {
+  background: url("/images/space.jpg") no-repeat center center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

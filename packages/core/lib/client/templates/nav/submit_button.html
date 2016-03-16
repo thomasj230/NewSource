@@ -1,0 +1,7 @@
+<template name="ns_submit_button">
+  {{#if currentUser}}
+      <div class="submit-button {{moduleClass}}">
+          <a id="submit" class="submit btn waves-effect btn-primary" href="{{pathFor 'postSubmit'}}">{{_ "submit_video"}}</a>
+      </div>
+  {{/if}}
+</template>
