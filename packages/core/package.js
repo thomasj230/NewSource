@@ -7,11 +7,11 @@ Package.describe({
 
 Package.onUse(function (api) {
 
-  api.versionsFrom(['METEOR@1.0']);
+  api.versionsFrom(['1.2.1']);
 
   api.use([
-    'telescope:core@0.25.0',
-    'telescope:theme-base@0.25.0'
+    'telescope:core@0.25.7',
+    'telescope:theme-base@0.25.7'
   ]);
 
   api.addFiles([
@@ -28,6 +28,7 @@ Package.onUse(function (api) {
   ], ['client', 'server']);
 
   api.addFiles([
+    'lib/server/services.js',
     'lib/server/templates/ns_emailDigest.handlebars',
     'lib/server/templates/ns_emailPostItem.handlebars'
   ], ['server']);
@@ -55,6 +56,8 @@ Package.onUse(function (api) {
     'lib/client/templates/posts/post_vote.html',
     'lib/client/templates/posts/post_vote.js',
 
+    'lib/client/templates/nav/user_menu.html',
+    'lib/client/templates/nav/user_menu.js',
     'lib/client/templates/nav/views_menu.html',
     'lib/client/templates/nav/views_menu.js',
     'lib/client/templates/nav/categories_menu.html',
@@ -65,6 +68,7 @@ Package.onUse(function (api) {
 
     'lib/client/stylesheets/_comments.scss',
     'lib/client/stylesheets/_global.scss',
+    'lib/client/stylesheets/_color.scss',
     'lib/client/stylesheets/_posts_grid.scss',
     'lib/client/stylesheets/_mixins.scss',
     'lib/client/stylesheets/_nav.scss',
