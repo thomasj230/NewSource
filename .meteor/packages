@@ -52,3 +52,4 @@ telescope:update-prompt
 ############ Meteor Packages ############
 
 xavcz:slackscope
+pauli:accounts-linkedin

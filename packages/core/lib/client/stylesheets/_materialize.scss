@@ -1,14 +1,4 @@
-$primary-color-blue-1: #1a237e;
-$primary-color-blue-2: #283593;
-$primary-color-blue-3: #303f9f;
-$primary-color-blue-4: #3949ab;
-$primary-color-blue-5: #304ffe;
-
-
-$primary-color-white-1: #fafafa;
-$primary-color-white-2: #f2f2f2;
-$primary-color-white-3: #d7e4ed;
-$primary-color-white-4: #999;
+@import 'color';
 
 @font-face {
   font-family: 'Roboto';
@@ -99,20 +89,20 @@ input, textarea, keygen, select, button{
 }
 
 .sign-up {
-  background-color: $primary-color-blue-3;
-  color: $primary-color-white-1 !important;
+  background-color: $primary-color-dark;
+  color: $primary-color-text !important;
 
   &:hover {
-    background-color: $primary-color-blue-4;
+    background-color: $primary-color !important;
   }
 }
 
 .sign-in {
-  background-color: $primary-color-white-1;
-  color: $primary-color-blue-3;
+  background-color: $primary-color-text;
+  color: $primary-color-dark !important;
 
   &:hover {
-    color: $primary-color-blue-4;
+    color: $primary-color !important;
   }
 }
 
@@ -143,7 +133,7 @@ input, textarea, keygen, select, button{
   }
 
   .search.empty {
-    color: $primary-color-white-4
+    color: $primary-color-text
   }
 }
 

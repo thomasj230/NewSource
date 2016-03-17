@@ -1,0 +1,1 @@
+--exclude-list=.meteor/,packages/,client/compatibility/,public/ckeditor
