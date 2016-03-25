@@ -33,11 +33,6 @@ Telescope.modules.add("mobileNav", {
 });
 
 Telescope.modules.add("primaryNav", {
-  template: "categories_menu",
-  order: 1
-});
-
-Telescope.modules.add("primaryNav", {
   template: "views_menu",
   order: 2
 });
