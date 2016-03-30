@@ -7,8 +7,8 @@ Meteor.methods({
 
 		if (Meteor.isServer) {
 			_.each(posts, post => {
-				// post.userId = "6jE5RWkHNuWnBmyDE"; // xavier id on newsource.fr
-				post.userId = "FJsdjSTwr6ceqf3a5" // xavier id on localhost:3000
+				post.userId = "6jE5RWkHNuWnBmyDE"; // xavier id on newsource.fr
+				// post.userId = "FJsdjSTwr6ceqf3a5" // xavier id on localhost:3000
 				try {
 					Posts.submit(post);
 					console.log('import : ', post.title);
