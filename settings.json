@@ -23,7 +23,6 @@
     "faviconUrl": "https://newsource.fr/images/favicons/logo.ico",
     "authMethods": [
       "email",
-      "twitter",
       "facebook"
     ],
     "categoriesBehavior": "single",

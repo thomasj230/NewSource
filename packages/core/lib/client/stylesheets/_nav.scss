@@ -143,7 +143,7 @@ $nav-width: 250px;
   .inner-wrapper{
     @include medium-large{
       margin-left: $nav-width;
-      padding-top: 10px;
+      padding: 10px 0;
     }
   }
   .header{
