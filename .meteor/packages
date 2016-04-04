@@ -8,12 +8,6 @@
 
 newsource:core
 
-############ NewSource Packages (Optional) ############
-
-newsource:resources
-newsource:projects
-newsource:profiles
-
 ############ Telescope Core ############
 
 telescope:core
