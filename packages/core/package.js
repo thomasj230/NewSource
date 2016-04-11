@@ -66,6 +66,8 @@ Package.onUse(function (api) {
     'lib/client/templates/nav/header.js',
     'lib/client/templates/nav/submit_button.html',
 
+    'lib/client/index.html',
+
     'lib/client/stylesheets/_comments.scss',
     'lib/client/stylesheets/_global.scss',
     'lib/client/stylesheets/_color.scss',
