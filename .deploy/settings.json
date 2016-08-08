@@ -1,0 +1,39 @@
+{
+  "public": {
+
+  },
+  "private": {
+    "MailChimp": {
+      "apiKey": "b51a67350786036eee5886ffcc67525a-us10",
+      "listId": "24840bcdc2"
+    },
+    "Linkedin": {
+      "clientId": "77e1aknjijafel",
+      "secret": "VAVGTFOsDU9nnhFE"
+    },
+    "Facebook": {
+      "appId": "502930153216516",
+      "secret": "6fe71e3c88034279cbf57621c0b91631"
+    },
+    "Google": {
+      "clientId": "560683610615-4e54n65kl9b7p8g3h574fdl61q6ssjog.apps.googleusercontent.com",
+      "secret": "rHWi1Mzlur4dXr7jqB7arZDV"
+    },
+    "Twitter": {
+      "consumerKey": "wGZ6ttJyBijIvPctu88QlrLyW",
+      "secret": "K5RPuyG78LTFdihfFB0bNaA2JU9Q20eHLCv4oVwoUFjXS6liqy"
+    },
+    "Github": {
+      "clientId": "f798cee8e6b73558d1c9",
+      "secret": "41b7e9e14b631339ea1fa8e9b5b1421e2e9db46f"
+    },
+    "GoogleCloudBucket": {
+      "GoogleAccessId": "slingshot-newsource@newsource-1042.iam.gserviceaccount.com"
+    },
+    "AWSS3": {
+      "AWSAccessKeyId": "AKIAJLUO3ITCXIQLXFSA",
+      "AWSSecretKey": "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",
+      "AWSRegion": "eu-west-1"
+    }
+  }
+}
